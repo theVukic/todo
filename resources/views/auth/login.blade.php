@@ -31,7 +31,7 @@
     <main class="form-signin w-100 m-auto">
         <form method="POST" action="{{route("login.post")}}">
             @csrf
-            <h1 class="h3 mb-3 fw-normal">Uloguj se</h1>
+            <h1 class="h3 mb-3 fw-normal">Uloguj se!</h1>
 
             <div class="form-floating">
                 <input name="email" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
